@@ -1,0 +1,47 @@
+{
+  "deals": {
+    "acme-001": {
+      "deal_id": "acme-001",
+      "company": "ACME Corp",
+      "product": "Enterprise Analytics Platform",
+      "stage": "Proposal",
+      "interactions": [
+        {
+          "id": 1,
+          "date": "2026-09-24",
+          "text": "ACME Corp is interested in our enterprise analytics platform because they need better visibility into sales performance and reporting."
+        },
+        {
+          "id": 2,
+          "date": "2026-09-25",
+          "text": "The customer said our pricing is too high and asked whether we can offer a discount."
+        },
+        {
+          "id": 3,
+          "date": "2026-09-26",
+          "text": "ACME Corp is also evaluating Salesforce as an alternative solution."
+        },
+        {
+          "id": 4,
+          "date": "2026-09-27",
+          "text": "The CTO will be the final technical decision maker. The CTO is particularly concerned about integration effort and implementation risk."
+        },
+        {
+          "id": 5,
+          "date": "2026-09-28",
+          "text": "ACME Corp requested a revised proposal with flexible pricing before the next meeting."
+        },
+        {
+          "id": 6,
+          "date": "2026-09-28",
+          "text": "ACME Corp asked for a live product demo with their sales operations team next week."
+        },
+        {
+          "id": 7,
+          "date": "2026-09-28",
+          "text": "IMPORTANT VERIFIED FACT: ACME Corp requested a live product demo for next week. ACME Corp did NOT provide an exact calendar date or date range. The exact demo date is unknown until the customer provides it."
+        }
+      ]
+    }
+  }
+}
