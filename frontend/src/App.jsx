@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./index.css";
 
-const API = "";
+const API = import.meta.env.VITE_API_URL || "";
 const DEAL_ID = "acme-001";
 
 function formatDate(value) {
