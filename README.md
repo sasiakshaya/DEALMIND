@@ -2,45 +2,42 @@
 
 ## AI Deal Intelligence Agent with Persistent Memory
 
-DealMind helps sales teams remember customer interactions and turn deal history into useful meeting intelligence.
+DealMind is an AI-powered deal intelligence agent that helps sales teams remember customer interactions and prepare for future meetings using persistent memory.
+
+Instead of treating every conversation as a fresh interaction, DealMind stores important deal context and uses it later to generate more personalized meeting intelligence.
 
 ## Problem
 
-Sales conversations contain important details such as pricing objections, competitors, decision makers, technical concerns, and customer requests. DealMind keeps this context available through persistent AI memory.
+Sales conversations contain important information such as:
 
-## Core Features
+- Customer requirements
+- Pricing concerns
+- Competitors
+- Decision makers
+- Technical concerns
+- Contract requirements
+- Customer requests
 
-- Capture customer interactions
-- Store persistent memories using Hindsight
-- Recall relevant deal information
-- Generate personalized meeting preparation
-- Show deal timeline and memory events
+Without persistent memory, important information can be forgotten between meetings.
 
-## Hindsight Usage
+DealMind solves this by storing deal interactions in Hindsight and using that memory to prepare the salesperson for future conversations.
 
-Retain: stores customer interactions as persistent memories.
+## How DealMind Works
 
-Recall: retrieves relevant memories when a salesperson asks about a deal.
-
-Reflect: uses accumulated context to generate a personalized meeting brief.
-
-## Tech Stack
-
-React, Vite, Python, FastAPI, Hindsight, JavaScript, HTML, and CSS.
-
-## Example Deal
-
-ACME Corp: pricing concerns, Salesforce evaluation, CTO technical concerns, flexible pricing request, and product demo request.
-
-## Project Structure
-
-DealMind/
-  backend/
-  frontend/
-  README.md
-
-## Running Locally
-
-Backend: cd backend && source .venv/bin/activate && uvicorn main:app --reload --port 8000
-
-Frontend: cd frontend && npm run dev
+```text
+Salesperson
+     |
+     v
+Add Customer Interaction
+     |
+     v
+Hindsight Persistent Memory
+     |
+     +------ Retain ------> Store interaction
+     |
+     +------ Recall ------> Retrieve relevant memories
+     |
+     +------ Reflect -----> Generate meeting intelligence
+     |
+     v
+Personalized Meeting Preparation
